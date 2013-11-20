@@ -12,7 +12,7 @@ title: 6LTM--Home
           <hr>
           <p><span class="glyphicon glycphicon-time"></span>Erstellt am {{ post.date | date_to_long_string }}</p>
           <hr>
-          <img src="http://www.placehold.it/900x300" class="img-responsive">
+	  <img src="{{post.image}}" class="img-responsive"/>
           <hr>
           <p>
             {{ post.excerpt }}
