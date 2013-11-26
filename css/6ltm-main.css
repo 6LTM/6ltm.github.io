@@ -5,3 +5,9 @@ body {
 footer {
   margin: 50px 0;
 }
+
+/* Logo Styling */
+.navbar-brand span{
+    padding: 2px;
+    letter-spacing: 3x;
+}
