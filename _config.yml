@@ -4,5 +4,5 @@ pygments: true
 
 paginate: 5
 
-url: 6ltm.github.io
+url: http://6ltm.github.io
 baseurl:     /
