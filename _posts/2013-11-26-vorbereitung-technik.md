@@ -7,10 +7,10 @@ permalink: /vorbereitung/technik
 Nachdem ich das Thema der persönlichen Vorbereitung abgehandelt habe, möchte Ich nun noch auf den Teil der technischen Vorbereitung für das Projekt eingehen. Eins möchte Ich allerdings noch vorweg nehmen. Diese Konfiguration entstammt in den Grundzügen meiner eigenen Fantasie, bis auf wenige Ausnahmen. Wenn jemand für evtl. Fehler oder sonstige Dinge im Zusammenhang mit der technischen Ausführung des Projektes verantwortlich, dann bin allein Ich das.
 
 ###Am Anfang steht das Betriebssystem
-Ich habe mich bewusst für ein Ubuntu Linux entschieden. Zum einen ist es frei erhältlich und zum anderen um einiges einfacher zu handeln als anderes Distributionen wie z.B Archlinux. Ich muss allerdings ehrlich gestehen, das ich anfangs zu Arch tendierte, doch erinnerte mich Arch immer an die Kindheit, der Ich noch mit Bauklötzen gespielt habe. In Arch muss so gut wie alles von Hand erledigt werden, von der Installation, die unglaublich komplex ist ganz zu schweigen. Die Macher von Ubuntu (Canonical) auf der anderen Seite haben es verstanden, ein Linux zu liefern, dass "out of the Box" funktioniert. Ich benutze Ubuntu nun seit mehr als 4 Jahren und bin immer noch höchst zufrieden damit.
+Ich habe mich bewusst für ein Ubuntu Linux entschieden. Zum einen ist es frei erhältlich und zum anderen um einiges einfacher zu handeln als anderes Distributionen wie z.B Archlinux. Ich muss allerdings ehrlich gestehen, das ich anfangs zu Arch tendierte, doch erinnerte mich Arch immer an die Kindheit, als Ich noch mit Bauklötzen gespielt habe. In Arch muss so gut wie alles von Hand erledigt werden, von der Installation, die unglaublich komplex ist, ganz zu schweigen. Die Macher von Ubuntu (Canonical) auf der anderen Seite haben es verstanden, ein Linux zu liefern, dass "out of the Box" funktioniert. Ich benutze Ubuntu nun seit mehr als 4 Jahren und bin immer noch höchst zufrieden damit.
 
 ###Kleine Helferlein im Alltag
-Egal welches Betriebssystem man einsetzt, als Programmierer muss man früher oder später mit dem Terminal (Kommandozeile unter Windows) arbeiten. Meistens eher früher als später. Hat man die Grundzüge erstmal verstanden, wie z.B. das wechseln in einen Ordner oder das Auflisten von Dateien, merkt man häufig, wie sehr moderne Tools mit grafischer Oberfläche die eigentliche Arbeit verstecken und manchmal auch erschweren.
+Egal welches Betriebssystem man einsetzt, als Programmierer muss man früher oder später mit dem Terminal (Kommandozeile unter Windows) arbeiten. Meistens eher früher als später. Hat man die Grundzüge erstmal verstanden, wie z.B. das wechseln in einen Ordner oder das Auflisten von Dateien, merkt man häufig, wie sehr moderne Tools mit grafischer Oberfläche die eigentliche Arbeit verstecken und manchmal auch erschweren. Häufig ist man im Terminal schneller am Ziel.
 
 ####ZSH basht Bash
 Ein Terminal ist nichts ohne eine vernünftige Shell. Im Falle von Ubuntu ist diese Bash. Ich weiss garnicht mehr genau warum bzw. wann, doch bin ich seit längerer Zeit ein treuer Nutzer von ZSH. Falls Ihr mit ZSH noch nicht vertraut seit, findet ihr weitere Infos auf der [Website von ZSH](http://www.zsh.org/).
@@ -63,7 +63,7 @@ $ cd dotfiles
 $ git init
 ```
 
-Ein weiterer Vorteil zeigt sich, wenn wir das soeben erstellte Repository bei [Github](www.github.com) hochladen. So kann man sich sicher sein, das man auch bei einem kompletten Verlust der Festplatte durch das runterladen eines Repositories schnell wieder produktiv ist.
+Ein weiterer Vorteil zeigt sich, wenn wir das soeben erstellte Repository bei [Github](www.github.com) hochladen. So kann man sich sicher sein, das man auch bei einem kompletten Verlust der Festplatte durch das herunterladen eines Repositories schnell wieder produktiv ist.
 
 ```
 $ git commit -a -m "initial commit"
@@ -76,7 +76,7 @@ Vorausgesetzt wird natürlich, das man einen Github Account besitzt, was allerdi
 Wie ich meine Konfiguration genau aufgeteilt habe, möchte ich nicht weiter ausführen. Stattdessen möchte Ich auf das [Repository](www.github.com/6ltm/dotfiles) verweisen. Die Dateinamen sind selbsterklärend. Zentraler Punkt bleibt die Datei [.zshrc](https://github.com/6LTM/dotfiles/blob/master/.zshrc)
 
 ###z ist das neue cd
-Terminal auf...In ein Verzeichnis springen...Ausversehen Terminal schliesen...Prozedur von vorn. Genau das kennt vermutlich jeder, der mit dem Terminal arbeit. Wo war noch gleich der Ordner? Und schon sind wieder 5 Minuten, in denen man sinnlos durch alle möglichen Verzeichnis mithilfe von "cd" springt. Genau an der Stelle kann [Z](https://github.com/rupa/z) Abhilfe schaffen. Z ist ein Shellskript, welches aufzeichnet, in welce Verzeichnisse springt und dem Benutzer mithilfe von Fuzzymatching hilft, schneller durch die Ordner zu navigieren. Irgendwie ist das kompliziert zu erklären, besser ist da ein Beispiel
+Terminal auf...In ein Verzeichnis springen...Ausversehen Terminal schliesen...Prozedur von vorn. Genau dass kennt vermutlich jeder, der mit dem Terminal arbeit. Wo war noch gleich der Ordner? Und schon sind wieder 5 Minuten, in denen man sinnlos durch alle möglichen Verzeichnis mithilfe von "cd" springt. Genau an der Stelle kann [Z](https://github.com/rupa/z) Abhilfe schaffen. Z ist ein Shellskript, welches aufzeichnet, in welce Verzeichnisse springt und dem Benutzer mithilfe von Fuzzymatching hilft, schneller durch die Ordner zu navigieren. Irgendwie ist das kompliziert zu erklären, besser ist da ein Beispiel
 
 ####ohne z
 ```
@@ -94,11 +94,11 @@ Z merkt sich in welche Ordner ich wie oft gesprungen bin und hilft mir somit sch
 ###Ein Blog muss her
 Eines meiner Ziele mit diesem Projekt ist es, Leute zu erreichen. Einfach geht das per Internet, somit muss ein Blog für mein Projekt ran. "Nimm Wordpress" höre ich die ersten schon schreien. NEIN! Ich möchte was einfacheres, bei dem ich Posts mit meinem Lieblingseditor Emacs schreiben kann. Auf der Suche nach einer Lösung stieß ich auf [Jekyll](http://jekyllrb.com/). Jekyll ist schnell erklärt. Man schreibt seine Posts in [Markdown](http://de.wikipedia.org/wiki/Markdown) und Jekyll wandelt diese in statische HTML Dateien um, die man auf einen Server hochladen kann. Keine lästige Datenbank, kein lästiges PHP. Das beste kommt allerdings zum Schluss, Versionskontrolle.
 
-Statischer Text hat den Vorteil, das man diesen versionieren kann. Ob nun mit Subversion, Git oder Mercurial spielt keine Rolle. Taucht ein Fehler auf, kann man binnen Sekunden auf eine ältere Version zurück springen, insofern man das möchte.
+Statischer Text hat den Vorteil, das man diesen versionieren kann. Ob nun mit Subversion, Git oder Mercurial, spielt keine Rolle. Taucht ein Fehler auf, kann man binnen Sekunden auf eine ältere Version zurück springen, insofern man das möchte.
 
 Wie man Jekyll installiert und ein Template erstellt, wird auf der [Seite von Jekyll](http://jekyllrb.com/docs/home/) erklärt.
 
-Sollte man sich entscheiden, git und Github zu verwenden, hat man auch gleich ein passendes Hosting gefunden, welches auch noch gratis ist. Vermutlich liegt es an der Tatsache, das Jekyll vom Github Mitbegründer Tom Preston-Werner erstellt wurde.
+Sollte man sich entscheiden, git und Github zu verwenden, hat man auch gleich ein passendes Hosting gefunden, welches auch noch gratis ist. Vermutlich liegt es an der Tatsache, dass Jekyll vom Github Mitbegründer Tom Preston-Werner erstellt wurde.
 
 ###Bootstrap3 hilft Designfernen Menschen
 Ich bin ehrlich zu euch. Ich habe überhaupt keine Ahnung, wie man ein visuell ansprechendes Design erstellt. Meine Skills in Photoshop hören spätestens beim Erstellen von Ebenen auf. Hat man aber trotzdem den Drang nach einem optisch ansprechenden Design für seinen Blog oder andere Webseiten, kommt man um ein Framework nicht herum.
