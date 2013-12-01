@@ -110,25 +110,18 @@ body {
     text-align: center;
   }
 }
-@media (min-width: 992px) {
-  /* line 13, ../_sass/navigation.scss */
-  #navigation {
-    display: block;
-    text-align: center;
-  }
-}
-/* line 27, ../_sass/navigation.scss */
+/* line 22, ../_sass/navigation.scss */
 #navigation ul {
   overflow: hidden;
 }
 @media (min-width: 768px) {
-  /* line 30, ../_sass/navigation.scss */
+  /* line 25, ../_sass/navigation.scss */
   #navigation ul li {
     display: inline-block;
     text-align: center;
   }
 }
-/* line 37, ../_sass/navigation.scss */
+/* line 32, ../_sass/navigation.scss */
 #navigation ul li a {
   display: block;
   text-decoration: none;
@@ -139,17 +132,17 @@ body {
   padding: 15px 0 15px 30px;
 }
 @media (min-width: 768px) {
-  /* line 37, ../_sass/navigation.scss */
+  /* line 32, ../_sass/navigation.scss */
   #navigation ul li a {
     padding: 20px;
   }
 }
-/* line 49, ../_sass/navigation.scss */
+/* line 44, ../_sass/navigation.scss */
 #navigation ul li a:hover {
   background-color: #34495e;
 }
 
-/* line 57, ../_sass/navigation.scss */
+/* line 52, ../_sass/navigation.scss */
 #nav-toggle {
   display: block;
   float: right;
@@ -161,7 +154,7 @@ body {
   margin-top: 10px;
 }
 @media (min-width: 768px) {
-  /* line 57, ../_sass/navigation.scss */
+  /* line 52, ../_sass/navigation.scss */
   #nav-toggle {
     display: none;
   }

@@ -19,11 +19,6 @@
 		text-align: center;
 	}
 
-	@include breakpoint($desktop){
-		display: block;
-		text-align: center;
-	}
-
 	ul{
 		overflow: hidden;
 
