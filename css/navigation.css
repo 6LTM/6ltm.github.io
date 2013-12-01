@@ -1,0 +1,52 @@
+/* line 6, ../_sass/navigation.scss */
+#nav-wrapper {
+  overflow: hidden;
+}
+
+/* line 10, ../_sass/navigation.scss */
+#navigation {
+  background-color: #2c3e50;
+  display: none;
+}
+/* line 14, ../_sass/navigation.scss */
+#navigation ul {
+  overflow: hidden;
+}
+/* line 17, ../_sass/navigation.scss */
+#navigation ul li {
+  width: 100%;
+}
+/* line 22, ../_sass/navigation.scss */
+#navigation ul li a {
+  display: block;
+  text-decoration: none;
+  color: #ecf0f1;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.2em;
+  padding: 15px 0 15px 20px;
+}
+/* line 31, ../_sass/navigation.scss */
+#navigation ul li a:hover {
+  background-color: #34495e;
+}
+/* line 36, ../_sass/navigation.scss */
+#navigation ul li ul {
+  background-color: #34495e;
+}
+/* line 39, ../_sass/navigation.scss */
+#navigation ul li ul li a {
+  padding: 15px 0 15px 40px;
+}
+
+/* line 49, ../_sass/navigation.scss */
+#nav-toggle {
+  display: block;
+  float: right;
+  color: #2c3e50;
+  border: 1px solid #7f8c8d;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}

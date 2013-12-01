@@ -1,0 +1,58 @@
+@import "base";
+
+@import "singularitygs";
+@import "breakpoint";
+
+#nav-wrapper{
+	overflow: hidden;
+}
+
+#navigation{
+	background-color: $base2;
+	display: none;	
+
+	ul{
+		overflow: hidden;
+
+		li{
+
+			width: 100%;
+			//display: block;
+
+			a{
+				display: block;
+				text-decoration: none;
+				color: $base5;
+				font-family: "Montserrat";
+				font-weight: 700;
+				font-size: 1.2em;
+				padding: 15px 0 15px 20px;
+			}
+			a:hover{
+				background-color: $base1;
+			}
+			
+			//nested menu
+			ul{
+				background-color: $base1;
+				li{
+					a{
+						padding: 15px 0 15px 40px;
+					}
+				}
+			}
+		}
+		
+	}
+}
+
+#nav-toggle{
+	display: block;
+	float: right;
+	color: $base2;
+	border: 1px solid $base4;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}

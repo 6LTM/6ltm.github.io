@@ -1,0 +1,42 @@
+@import "base";
+
+@import "singularitygs";
+@import "breakpoint";
+
+header{
+	margin: 20px 10px;
+	font-family: "Montserrat";
+	font-weight: 400;
+	
+	h1{
+		font-size: 1.8em;
+		text-align: center;
+		color: $base2;
+		letter-spacing: 5px;
+		@include breakpoint(480px){
+			font-size: 2.9em;
+		}
+		@include breakpoint(768px){
+			font-size: 3.2em;
+		}
+		@include breakpoint(1024px){
+			font-size: 3.9em;
+		}
+	}
+
+	h3{
+		text-align: center;
+		margin-top: 20px;
+		font-size: 0.9em;
+		color: $base1;
+		@include breakpoint(480px){
+			font-size: 1.8em;
+		}
+		@include breakpoint(768px){
+			font-size: 2.4em;
+		}
+		@include breakpoint(1024px){
+			font-size: 2.7em;
+		}
+	}
+}
