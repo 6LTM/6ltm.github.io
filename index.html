@@ -3,42 +3,34 @@ layout: default
 title: 6LTM--Home
 ---
 
-<div class="row">
-        <div class="col-lg-8">
-        
-          <!-- blog entries -->
-          {% for post in paginator.posts %}
-          <h1>{{ post.title }}</h1>
-          <hr>
-          <p><span class="glyphicon glycphicon-time"></span>Erstellt am {{ post.date | date_to_long_string }}</p>
-          <hr>
-          <p>
-            {{ post.excerpt }}
-          </p>
-          <a class="btn btn-primary" href="{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
-          <hr>
-          {% endfor %}
-
-          <!-- pager -->
-          <ul class="pager">
-            {% if paginator.previous_page %}
-            <li class="previous"><a href="page{{ paginator.previous_page }}">&larr; Older</a></li>
-            {% endif %}
-            <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-            {%if paginator.next_page %}
-            <li class="next"><a href="{{ paginator.next_page }}">Newer &rarr;</a></li>
-            {% endif %}
-          </ul>
-
-        </div>
-        <div class="col-lg-4">
-	  <div class="well">
-	    <p class="lead">Social Stuff</p>
-	    <a href="http://www.github.com/6ltm"><i class="center-block fa fa-github fa-5x"></i></a>
-	    <a href="http://www.twitter.com/rakin05"><i class="fa fa-twitter fa-5x"></i></a>
-	    <a href="mailto:felixklotzsche@gmail.com"><i class="fa fa-envelope fa-5x"></i></a>
-	  </div>
-	</div>
-	
-	<hr>
+<div id="content">
+  <!-- blog entries -->
+  {% for post in paginator.posts %}
+  <h1>{{ post.title }}</h1>
+  <p><i class="fa fa-clock-o"></i>Erstellt am {{ post.date | date_to_long_string }}</p>
+  <p>
+    {{ post.excerpt }}
+  </p>
+  <a class="btn btn-primary" href="{{ post.url }}">Mehr Lesen <span class="glyphicon glyphicon-chevron-right"></span></a>
+  <hr>
+  {% endfor %}
+  
+  <!-- pager -->
+  <ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous"><a href="page{{ paginator.previous_page }}">&larr; Older</a></li>
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {%if paginator.next_page %}
+    <li class="next"><a href="{{ paginator.next_page }}">Newer &rarr;</a></li>
+    {% endif %}
+  </ul>
 </div>
+
+<div id="sidebar">
+ <p class="lead">Social Stuff</p>
+ <a href="http://www.github.com/6ltm"><i class="center-block fa fa-github fa-5x"></i></a>
+ <a href="http://www.twitter.com/rakin05"><i class="fa fa-twitter fa-5x"></i></a>
+ <a href="mailto:felixklotzsche@gmail.com"><i class="fa fa-envelope fa-5x"></i></a>
+</div>
+

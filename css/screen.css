@@ -66,3 +66,46 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 13, ../_sass/screen.scss */
+#navigation {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+
+/* line 17, ../_sass/screen.scss */
+#wrapper {
+  clear: both;
+  width: 960px;
+  margin: 50px auto 0 auto;
+}
+
+/* line 23, ../_sass/screen.scss */
+#content {
+  width: 65.95745%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
+}
+
+/* line 27, ../_sass/screen.scss */
+#sidebar {
+  width: 23.40426%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 68.08511%;
+  clear: none;
+}
+
+/* line 31, ../_sass/screen.scss */
+footer {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
