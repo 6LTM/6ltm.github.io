@@ -70,9 +70,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 13, ../_sass/screen.scss */
 body {
   background-color: #ecf0f1;
+  border-top: 10px solid #34495e;
 }
 
-/* line 17, ../_sass/screen.scss */
+/* line 18, ../_sass/screen.scss */
 #navigation, #wrapper, footer {
   width: 100%;
   float: right;
@@ -81,7 +82,7 @@ body {
   clear: none;
 }
 
-/* line 21, ../_sass/screen.scss */
+/* line 22, ../_sass/screen.scss */
 #content, #sidebar {
   padding: 25px;
 }
@@ -90,44 +91,65 @@ body {
 #nav-wrapper {
   overflow: hidden;
 }
+@media (min-width: 992px) {
+  /* line 6, ../_sass/navigation.scss */
+  #nav-wrapper {
+    background-color: #2c3e50;
+  }
+}
 
-/* line 10, ../_sass/navigation.scss */
+/* line 13, ../_sass/navigation.scss */
 #navigation {
   background-color: #2c3e50;
   display: none;
 }
-/* line 14, ../_sass/navigation.scss */
+@media (min-width: 768px) {
+  /* line 13, ../_sass/navigation.scss */
+  #navigation {
+    display: block;
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  /* line 13, ../_sass/navigation.scss */
+  #navigation {
+    display: block;
+    text-align: center;
+  }
+}
+/* line 27, ../_sass/navigation.scss */
 #navigation ul {
   overflow: hidden;
 }
-/* line 17, ../_sass/navigation.scss */
-#navigation ul li {
-  width: 100%;
+@media (min-width: 768px) {
+  /* line 30, ../_sass/navigation.scss */
+  #navigation ul li {
+    display: inline-block;
+    text-align: center;
+  }
 }
-/* line 22, ../_sass/navigation.scss */
+/* line 37, ../_sass/navigation.scss */
 #navigation ul li a {
   display: block;
   text-decoration: none;
   color: #ecf0f1;
   font-family: "Montserrat";
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.2em;
-  padding: 15px 0 15px 20px;
+  padding: 15px 0 15px 30px;
 }
-/* line 31, ../_sass/navigation.scss */
+@media (min-width: 768px) {
+  /* line 37, ../_sass/navigation.scss */
+  #navigation ul li a {
+    padding: 20px;
+  }
+}
+/* line 49, ../_sass/navigation.scss */
 #navigation ul li a:hover {
   background-color: #34495e;
 }
-/* line 36, ../_sass/navigation.scss */
-#navigation ul li ul {
-  background-color: #34495e;
-}
-/* line 39, ../_sass/navigation.scss */
-#navigation ul li ul li a {
-  padding: 15px 0 15px 40px;
-}
 
-/* line 49, ../_sass/navigation.scss */
+/* line 57, ../_sass/navigation.scss */
 #nav-toggle {
   display: block;
   float: right;
@@ -138,6 +160,12 @@ body {
   margin-right: 10px;
   margin-top: 10px;
 }
+@media (min-width: 768px) {
+  /* line 57, ../_sass/navigation.scss */
+  #nav-toggle {
+    display: none;
+  }
+}
 
 /* line 6, ../_sass/header.scss */
 header {
@@ -145,7 +173,13 @@ header {
   font-family: "Montserrat";
   font-weight: 400;
 }
-/* line 11, ../_sass/header.scss */
+@media (min-width: 768px) {
+  /* line 6, ../_sass/header.scss */
+  header {
+    margin: 100px 0;
+  }
+}
+/* line 15, ../_sass/header.scss */
 header h1 {
   font-size: 1.8em;
   text-align: center;
@@ -153,24 +187,24 @@ header h1 {
   letter-spacing: 5px;
 }
 @media (min-width: 480px) {
-  /* line 11, ../_sass/header.scss */
+  /* line 15, ../_sass/header.scss */
   header h1 {
     font-size: 2.9em;
   }
 }
 @media (min-width: 768px) {
-  /* line 11, ../_sass/header.scss */
+  /* line 15, ../_sass/header.scss */
   header h1 {
     font-size: 3.2em;
   }
 }
-@media (min-width: 1024px) {
-  /* line 11, ../_sass/header.scss */
+@media (min-width: 992px) {
+  /* line 15, ../_sass/header.scss */
   header h1 {
     font-size: 3.9em;
   }
 }
-/* line 27, ../_sass/header.scss */
+/* line 31, ../_sass/header.scss */
 header h3 {
   text-align: center;
   margin-top: 20px;
@@ -178,19 +212,19 @@ header h3 {
   color: #34495e;
 }
 @media (min-width: 480px) {
-  /* line 27, ../_sass/header.scss */
+  /* line 31, ../_sass/header.scss */
   header h3 {
     font-size: 1.8em;
   }
 }
 @media (min-width: 768px) {
-  /* line 27, ../_sass/header.scss */
+  /* line 31, ../_sass/header.scss */
   header h3 {
     font-size: 2.4em;
   }
 }
-@media (min-width: 1024px) {
-  /* line 27, ../_sass/header.scss */
+@media (min-width: 992px) {
+  /* line 31, ../_sass/header.scss */
   header h3 {
     font-size: 2.7em;
   }

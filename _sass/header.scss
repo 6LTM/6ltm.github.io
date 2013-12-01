@@ -8,18 +8,22 @@ header{
 	font-family: "Montserrat";
 	font-weight: 400;
 	
+	@include breakpoint($tablet){
+		margin: 100px 0;
+	}
+
 	h1{
 		font-size: 1.8em;
 		text-align: center;
 		color: $base2;
 		letter-spacing: 5px;
-		@include breakpoint(480px){
+		@include breakpoint($phone){
 			font-size: 2.9em;
 		}
-		@include breakpoint(768px){
+		@include breakpoint($tablet){
 			font-size: 3.2em;
 		}
-		@include breakpoint(1024px){
+		@include breakpoint($desktop){
 			font-size: 3.9em;
 		}
 	}
@@ -28,14 +32,14 @@ header{
 		text-align: center;
 		margin-top: 20px;
 		font-size: 0.9em;
-		color: $base1;
-		@include breakpoint(480px){
+		color: $base1
+;		@include breakpoint($phone){
 			font-size: 1.8em;
 		}
-		@include breakpoint(768px){
+		@include breakpoint($tablet){
 			font-size: 2.4em;
 		}
-		@include breakpoint(1024px){
+		@include breakpoint($desktop){
 			font-size: 2.7em;
 		}
 	}
