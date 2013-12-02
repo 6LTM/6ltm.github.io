@@ -71,9 +71,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   background-color: #ecf0f1;
   border-top: 10px solid #34495e;
+  font-size: 16px;
 }
 
-/* line 18, ../_sass/screen.scss */
+/* line 19, ../_sass/screen.scss */
 #navigation, #wrapper, footer {
   width: 100%;
   float: right;
@@ -82,7 +83,7 @@ body {
   clear: none;
 }
 
-/* line 22, ../_sass/screen.scss */
+/* line 23, ../_sass/screen.scss */
 #content, #sidebar {
   padding: 25px;
 }
