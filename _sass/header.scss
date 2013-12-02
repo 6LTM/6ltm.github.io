@@ -36,10 +36,41 @@ header{
 	    font-size: 1.8em;
 	}
 	@include breakpoint($tablet){
+            margin-top: 25px;
 	    font-size: 2.4em;
 	}
 	@include breakpoint($desktop){
+            margin-top: 30px;
 	    font-size: 2.7em;
 	}
+    }
+
+    #logos{
+        margin-top: 20px;
+        text-align: center;
+
+        @include breakpoint($tablet){
+            margin-top: 30px;
+        }
+        @include breakpoint($desktop){
+            margin-top: 40px;
+        }
+
+        img{
+            max-width: 2em;
+            margin: 0 5px;
+
+            @include breakpoint($phone){
+                max-width: 2.5em;
+            }
+            @include breakpoint($tablet){
+                margin: 0 10px;
+                max-width: 3em;
+            }
+            @include breakpoint($desktop){
+                margin: 0 15px;
+                max-width: 4em;
+            }
+        }
     }
 }
