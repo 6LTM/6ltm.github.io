@@ -37,8 +37,7 @@
   display: block;
   text-decoration: none;
   color: #ecf0f1;
-  font-family: "Montserrat";
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.2em;
   padding: 15px 0 15px 30px;
 }
@@ -48,12 +47,12 @@
     padding: 20px;
   }
 }
-/* line 42, ../_sass/navigation.scss */
+/* line 41, ../_sass/navigation.scss */
 #navigation ul li a:hover {
   background-color: #34495e;
 }
 
-/* line 49, ../_sass/navigation.scss */
+/* line 48, ../_sass/navigation.scss */
 #nav-toggle {
   display: block;
   float: right;
@@ -65,7 +64,7 @@
   margin-top: 10px;
 }
 @media (min-width: 768px) {
-  /* line 49, ../_sass/navigation.scss */
+  /* line 48, ../_sass/navigation.scss */
   #nav-toggle {
     display: none;
   }

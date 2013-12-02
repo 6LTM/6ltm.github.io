@@ -1,8 +1,6 @@
 /* line 6, ../_sass/header.scss */
 header {
   margin: 20px 10px;
-  font-family: "Montserrat";
-  font-weight: 400;
 }
 @media (min-width: 768px) {
   /* line 6, ../_sass/header.scss */
@@ -10,52 +8,54 @@ header {
     margin: 100px 0;
   }
 }
-/* line 15, ../_sass/header.scss */
+/* line 12, ../_sass/header.scss */
 header h1 {
   font-size: 1.8em;
   text-align: center;
   color: #2c3e50;
   letter-spacing: 5px;
+  font-weight: 700;
 }
 @media (min-width: 480px) {
-  /* line 15, ../_sass/header.scss */
+  /* line 12, ../_sass/header.scss */
   header h1 {
     font-size: 2.9em;
   }
 }
 @media (min-width: 768px) {
-  /* line 15, ../_sass/header.scss */
+  /* line 12, ../_sass/header.scss */
   header h1 {
     font-size: 3.2em;
   }
 }
 @media (min-width: 992px) {
-  /* line 15, ../_sass/header.scss */
+  /* line 12, ../_sass/header.scss */
   header h1 {
     font-size: 3.9em;
   }
 }
-/* line 31, ../_sass/header.scss */
+/* line 29, ../_sass/header.scss */
 header h3 {
   text-align: center;
   margin-top: 20px;
   font-size: 0.9em;
   color: #34495e;
+  font-weight: 300;
 }
 @media (min-width: 480px) {
-  /* line 31, ../_sass/header.scss */
+  /* line 29, ../_sass/header.scss */
   header h3 {
     font-size: 1.8em;
   }
 }
 @media (min-width: 768px) {
-  /* line 31, ../_sass/header.scss */
+  /* line 29, ../_sass/header.scss */
   header h3 {
     font-size: 2.4em;
   }
 }
 @media (min-width: 992px) {
-  /* line 31, ../_sass/header.scss */
+  /* line 29, ../_sass/header.scss */
   header h3 {
     font-size: 2.7em;
   }
