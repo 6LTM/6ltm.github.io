@@ -2,7 +2,7 @@ name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
 
-paginate: 5
+paginate: 3
 
 url: http://6ltm.github.io
 baseurl:     /
