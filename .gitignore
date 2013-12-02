@@ -4,3 +4,4 @@ _site
 /Gemfile~
 /Gemfile.lock
 /.sass-cache
+/_sass/.sass-cache

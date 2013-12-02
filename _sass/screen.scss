@@ -11,16 +11,16 @@
 @import "breakpoint";
 
 body{
-	background-color: $base5;
-	border-top: 10px solid $base1;
+    background-color: $base5;
+    border-top: 10px solid $base1;
 }
 
 #navigation, #wrapper, footer{
-	@include grid-span(12,1);
+    @include grid-span(12,1);
 }
 
 #content, #sidebar{
-	padding: 25px
+    padding: 25px
 }
 
 // import the navigation styles
