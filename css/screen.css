@@ -76,7 +76,7 @@ body {
 }
 
 /* line 20, ../_sass/screen.scss */
-#navigation, #wrapper, footer {
+#navigation, footer {
   width: 100%;
   float: right;
   margin-left: 0;
@@ -87,6 +87,43 @@ body {
 /* line 24, ../_sass/screen.scss */
 #content, #sidebar {
   padding: 25px;
+}
+
+@media (min-width: 992px) {
+  /* line 28, ../_sass/screen.scss */
+  #wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 28, ../_sass/screen.scss */
+  #wrapper {
+    width: 1140px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 39, ../_sass/screen.scss */
+  #content {
+    width: 65.95745%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 45, ../_sass/screen.scss */
+  #sidebar {
+    width: 23.40426%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 68.08511%;
+    clear: none;
+  }
 }
 
 /* line 6, ../_sass/navigation.scss */

@@ -17,12 +17,35 @@ body{
     font-family: "Poiret", sans-serif;
 }
 
-#navigation, #wrapper, footer{
+#navigation, footer{
     @include grid-span(12,1);
 }
 
 #content, #sidebar{
     padding: 25px
+}
+
+#wrapper{
+    @include breakpoint($desktop){
+        width: 960px;
+        margin: 0 auto;
+    }
+    @include breakpoint($wide-desktop){
+        width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+#content{
+    @include breakpoint($desktop){
+        @include grid-span(8,1);
+    }
+}
+
+#sidebar{
+   @include breakpoint($desktop){
+        @include grid-span(3,9);
+    }
 }
 
 // import the navigation styles
