@@ -474,6 +474,16 @@ h6 {
   text-decoration: none;
   text-align: center;
 }
+/* line 25, ../_sass/sidebar.scss */
+#sidebar #social-links .fa {
+  font-size: 4em;
+}
+@media (min-width: 1200px) {
+  /* line 25, ../_sass/sidebar.scss */
+  #sidebar #social-links .fa {
+    font-size: 5em;
+  }
+}
 
 /* line 61, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
