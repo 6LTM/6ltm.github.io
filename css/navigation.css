@@ -1,3 +1,50 @@
+/* line 61, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%;
+}
+
+/* line 64, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 16px;
+  line-height: 1.625em;
+}
+
+/* line 27, ../_sass/base.scss */
+h1 {
+  font-size: 2.625em;
+  line-height: 1.2381em;
+}
+
+/* line 30, ../_sass/base.scss */
+h2 {
+  font-size: 2.3125em;
+  line-height: 1.40541em;
+}
+
+/* line 33, ../_sass/base.scss */
+h3 {
+  font-size: 1.8125em;
+  line-height: 1.7931em;
+}
+
+/* line 36, ../_sass/base.scss */
+h4 {
+  font-size: 1.375em;
+  line-height: 1.18182em;
+}
+
+/* line 39, ../_sass/base.scss */
+h5 {
+  font-size: 1em;
+  line-height: 1.625em;
+}
+
+/* line 42, ../_sass/base.scss */
+h6 {
+  font-size: 0.8125em;
+  line-height: 2em;
+}
+
 /* line 6, ../_sass/navigation.scss */
 #nav-wrapper {
   overflow: hidden;
@@ -38,7 +85,6 @@
   text-decoration: none;
   color: #ecf0f1;
   font-weight: 300;
-  font-size: 1.2em;
   padding: 15px 0 15px 30px;
 }
 @media (min-width: 768px) {
@@ -47,12 +93,12 @@
     padding: 20px;
   }
 }
-/* line 41, ../_sass/navigation.scss */
+/* line 40, ../_sass/navigation.scss */
 #navigation ul li a:hover {
   background-color: #34495e;
 }
 
-/* line 48, ../_sass/navigation.scss */
+/* line 47, ../_sass/navigation.scss */
 #nav-toggle {
   display: block;
   float: right;
@@ -64,7 +110,7 @@
   margin-top: 10px;
 }
 @media (min-width: 768px) {
-  /* line 48, ../_sass/navigation.scss */
+  /* line 47, ../_sass/navigation.scss */
   #nav-toggle {
     display: none;
   }

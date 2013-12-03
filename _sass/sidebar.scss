@@ -1,0 +1,27 @@
+@import "base";
+
+@import "breakpoint";
+@import "singularitygs";
+
+#sidebar{
+    text-align: center;
+    background-color: $base1;
+
+    @include breakpoint($desktop){
+        @include grid-span(3,10,12);
+    }
+    #social-links{
+        padding: 15px;
+
+        h3, a{
+            color: $base5;
+        }
+
+        a{
+            text-decoration: none;
+            text-align: center;
+        }
+    }
+
+
+}

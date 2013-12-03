@@ -44,3 +44,32 @@ h6 {
   font-size: 0.8125em;
   line-height: 2em;
 }
+
+/* line 6, ../_sass/sidebar.scss */
+#sidebar {
+  text-align: center;
+  background-color: #34495e;
+}
+@media (min-width: 992px) {
+  /* line 6, ../_sass/sidebar.scss */
+  #sidebar {
+    width: 23.40426%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+/* line 13, ../_sass/sidebar.scss */
+#sidebar #social-links {
+  padding: 15px;
+}
+/* line 16, ../_sass/sidebar.scss */
+#sidebar #social-links h3, #sidebar #social-links a {
+  color: #ecf0f1;
+}
+/* line 20, ../_sass/sidebar.scss */
+#sidebar #social-links a {
+  text-decoration: none;
+  text-align: center;
+}

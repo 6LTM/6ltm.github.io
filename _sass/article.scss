@@ -1,0 +1,27 @@
+@import "compass/typography";
+
+@import "base";
+
+article{
+    padding: 15px;
+    margin-bottom: 20px;
+
+    h1{
+        color: $base1;
+        margin: $base-line-height/2 0;
+    }
+
+    p i.fa{
+        margin-right: 5px;
+    }
+
+    a.read-more{
+        @include adjust-font-size-to(18px);
+        display: inline-block;
+        text-decoration: none;
+        background-color: $base1;
+        color: $base5;
+        margin-top: 10px;
+        padding: $base-line-height/2 $base-line-height;
+    }
+}
