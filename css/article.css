@@ -82,3 +82,14 @@ article a.read-more {
     display: inline-block;
   }
 }
+/* line 34, ../_sass/article.scss */
+article ul li {
+  margin-left: 25px;
+}
+/* line 38, ../_sass/article.scss */
+article ul li:before {
+  font-family: "FontAwesome";
+  color: #34495e;
+  font-weight: bold;
+  content: "\f105 \0020";
+}

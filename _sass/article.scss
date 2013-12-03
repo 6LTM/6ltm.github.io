@@ -29,4 +29,17 @@ article{
         margin-top: 22px;
         padding: $base-line-height/2 $base-line-height;
     }
+
+    ul{
+        li{
+            margin-left: 25px;
+        }
+
+        li:before{
+            font-family: "FontAwesome";
+            color: $base1;
+            font-weight: bold;
+            content: "\f105 \0020";
+        }
+    }
 }
