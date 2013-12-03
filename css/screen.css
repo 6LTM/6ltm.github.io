@@ -14,36 +14,41 @@ html {
 }
 
 /* line 27, ../_sass/base.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #34495e;
+}
+
+/* line 31, ../_sass/base.scss */
 h1 {
   font-size: 2.625em;
   line-height: 1.2381em;
 }
 
-/* line 30, ../_sass/base.scss */
+/* line 34, ../_sass/base.scss */
 h2 {
   font-size: 2.3125em;
   line-height: 1.40541em;
 }
 
-/* line 33, ../_sass/base.scss */
+/* line 37, ../_sass/base.scss */
 h3 {
   font-size: 1.8125em;
   line-height: 1.7931em;
 }
 
-/* line 36, ../_sass/base.scss */
+/* line 40, ../_sass/base.scss */
 h4 {
   font-size: 1.375em;
   line-height: 1.18182em;
 }
 
-/* line 39, ../_sass/base.scss */
+/* line 43, ../_sass/base.scss */
 h5 {
   font-size: 1em;
   line-height: 1.625em;
 }
 
-/* line 42, ../_sass/base.scss */
+/* line 46, ../_sass/base.scss */
 h6 {
   font-size: 0.8125em;
   line-height: 2em;
@@ -179,36 +184,41 @@ html {
 }
 
 /* line 27, ../_sass/base.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #34495e;
+}
+
+/* line 31, ../_sass/base.scss */
 h1 {
   font-size: 2.625em;
   line-height: 1.2381em;
 }
 
-/* line 30, ../_sass/base.scss */
+/* line 34, ../_sass/base.scss */
 h2 {
   font-size: 2.3125em;
   line-height: 1.40541em;
 }
 
-/* line 33, ../_sass/base.scss */
+/* line 37, ../_sass/base.scss */
 h3 {
   font-size: 1.8125em;
   line-height: 1.7931em;
 }
 
-/* line 36, ../_sass/base.scss */
+/* line 40, ../_sass/base.scss */
 h4 {
   font-size: 1.375em;
   line-height: 1.18182em;
 }
 
-/* line 39, ../_sass/base.scss */
+/* line 43, ../_sass/base.scss */
 h5 {
   font-size: 1em;
   line-height: 1.625em;
 }
 
-/* line 42, ../_sass/base.scss */
+/* line 46, ../_sass/base.scss */
 h6 {
   font-size: 0.8125em;
   line-height: 2em;
@@ -297,36 +307,41 @@ html {
 }
 
 /* line 27, ../_sass/base.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #34495e;
+}
+
+/* line 31, ../_sass/base.scss */
 h1 {
   font-size: 2.625em;
   line-height: 1.2381em;
 }
 
-/* line 30, ../_sass/base.scss */
+/* line 34, ../_sass/base.scss */
 h2 {
   font-size: 2.3125em;
   line-height: 1.40541em;
 }
 
-/* line 33, ../_sass/base.scss */
+/* line 37, ../_sass/base.scss */
 h3 {
   font-size: 1.8125em;
   line-height: 1.7931em;
 }
 
-/* line 36, ../_sass/base.scss */
+/* line 40, ../_sass/base.scss */
 h4 {
   font-size: 1.375em;
   line-height: 1.18182em;
 }
 
-/* line 39, ../_sass/base.scss */
+/* line 43, ../_sass/base.scss */
 h5 {
   font-size: 1em;
   line-height: 1.625em;
 }
 
-/* line 42, ../_sass/base.scss */
+/* line 46, ../_sass/base.scss */
 h6 {
   font-size: 0.8125em;
   line-height: 2em;
@@ -411,36 +426,41 @@ html {
 }
 
 /* line 27, ../_sass/base.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #34495e;
+}
+
+/* line 31, ../_sass/base.scss */
 h1 {
   font-size: 2.625em;
   line-height: 1.2381em;
 }
 
-/* line 30, ../_sass/base.scss */
+/* line 34, ../_sass/base.scss */
 h2 {
   font-size: 2.3125em;
   line-height: 1.40541em;
 }
 
-/* line 33, ../_sass/base.scss */
+/* line 37, ../_sass/base.scss */
 h3 {
   font-size: 1.8125em;
   line-height: 1.7931em;
 }
 
-/* line 36, ../_sass/base.scss */
+/* line 40, ../_sass/base.scss */
 h4 {
   font-size: 1.375em;
   line-height: 1.18182em;
 }
 
-/* line 39, ../_sass/base.scss */
+/* line 43, ../_sass/base.scss */
 h5 {
   font-size: 1em;
   line-height: 1.625em;
 }
 
-/* line 42, ../_sass/base.scss */
+/* line 46, ../_sass/base.scss */
 h6 {
   font-size: 0.8125em;
   line-height: 2em;
@@ -497,63 +517,75 @@ html {
 }
 
 /* line 27, ../_sass/base.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #34495e;
+}
+
+/* line 31, ../_sass/base.scss */
 h1 {
   font-size: 2.625em;
   line-height: 1.2381em;
 }
 
-/* line 30, ../_sass/base.scss */
+/* line 34, ../_sass/base.scss */
 h2 {
   font-size: 2.3125em;
   line-height: 1.40541em;
 }
 
-/* line 33, ../_sass/base.scss */
+/* line 37, ../_sass/base.scss */
 h3 {
   font-size: 1.8125em;
   line-height: 1.7931em;
 }
 
-/* line 36, ../_sass/base.scss */
+/* line 40, ../_sass/base.scss */
 h4 {
   font-size: 1.375em;
   line-height: 1.18182em;
 }
 
-/* line 39, ../_sass/base.scss */
+/* line 43, ../_sass/base.scss */
 h5 {
   font-size: 1em;
   line-height: 1.625em;
 }
 
-/* line 42, ../_sass/base.scss */
+/* line 46, ../_sass/base.scss */
 h6 {
   font-size: 0.8125em;
   line-height: 2em;
 }
 
-/* line 5, ../_sass/article.scss */
+/* line 6, ../_sass/article.scss */
 article {
-  padding: 15px;
-  margin-bottom: 20px;
+  padding: 16px;
+  margin-bottom: 26px;
 }
-/* line 9, ../_sass/article.scss */
+/* line 10, ../_sass/article.scss */
 article h1 {
   color: #34495e;
   margin: 13px 0;
 }
-/* line 14, ../_sass/article.scss */
+/* line 15, ../_sass/article.scss */
 article p i.fa {
   margin-right: 5px;
 }
-/* line 18, ../_sass/article.scss */
+/* line 19, ../_sass/article.scss */
 article a.read-more {
   font-size: 1.125em;
   line-height: 1.44444em;
-  display: inline-block;
+  display: block;
+  text-align: center;
   text-decoration: none;
   background-color: #34495e;
   color: #ecf0f1;
   margin-top: 22px;
   padding: 13px 26px;
+}
+@media (min-width: 480px) {
+  /* line 19, ../_sass/article.scss */
+  article a.read-more {
+    display: inline-block;
+  }
 }
