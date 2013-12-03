@@ -1,0 +1,27 @@
+/* line 4, ../_sass/pagination.scss */
+.pagination #page-links {
+  text-align: center;
+  width: 66.10169%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 16.94915%;
+  clear: none;
+}
+/* line 8, ../_sass/pagination.scss */
+.pagination span.next, .pagination a.next {
+  text-align: center;
+  width: 15.25424%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+/* line 13, ../_sass/pagination.scss */
+.pagination span.prev, .pagination a.prev {
+  text-align: center;
+  width: 15.25424%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
+}

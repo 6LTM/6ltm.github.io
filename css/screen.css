@@ -600,3 +600,31 @@ article ul li:before {
   font-weight: bold;
   content: "\f105 \0020";
 }
+
+/* line 4, ../_sass/pagination.scss */
+.pagination #page-links {
+  text-align: center;
+  width: 65.95745%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 17.02128%;
+  clear: none;
+}
+/* line 8, ../_sass/pagination.scss */
+.pagination span.next, .pagination a.next {
+  text-align: center;
+  width: 14.89362%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+/* line 13, ../_sass/pagination.scss */
+.pagination span.prev, .pagination a.prev {
+  text-align: center;
+  width: 14.89362%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
+}

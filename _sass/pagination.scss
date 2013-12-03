@@ -1,0 +1,17 @@
+@import "singularitygs";
+
+.pagination{
+    #page-links{
+        text-align: center;
+        @include grid-span(8, 3);
+    }
+    span.next, a.next{
+        text-align: center;
+        @include grid-span(2, 11);
+    }
+
+    span.prev, a.prev{
+        text-align: center;
+        @include grid-span(2, 1);
+    }
+}

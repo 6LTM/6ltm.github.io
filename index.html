@@ -21,25 +21,26 @@ title: 6LTM--Home
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-left"></i> Prev</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="prev"><i class="fa fa-angle-left"></i> Prev</a>
     {% else %}
-    <span><i class="fa fa-angle-left"></i> Prev</span>
+    <span class="prev"><i class="fa fa-angle-left"></i> Prev</span>
     {% endif %}
 
-    {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-    <em>{{ page }}</em>
-    {% elsif page == 1 %}
-    <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-    {% endfor %}
-
+    <div id="page-links">
+      {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+      <em>{{ page }}</em>
+      {% elsif page == 1 %}
+      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+      {% endfor %}
+    </div>
     {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next <i class="fa fa-angle-right"></i></a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Next <i class="fa fa-angle-right"></i></a>
     {% else %}
-    <span>Next <i class="fa fa-angle-right"></i></span>
+    <span class="next">Next <i class="fa fa-angle-right"></i></span>
     {% endif %}
   </div>
   {% endif %}
