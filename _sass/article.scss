@@ -1,10 +1,11 @@
 @import "compass/typography";
+@import "breakpoint";
 
 @import "base";
 
 article{
-    padding: 15px;
-    margin-bottom: 20px;
+    padding: $base-font-size;
+    margin-bottom: $base-line-height;
 
     h1{
         color: $base1;
@@ -17,7 +18,11 @@ article{
 
     a.read-more{
         @include adjust-font-size-to(18px);
-        display: inline-block;
+        display: block;
+        text-align: center;
+        @include breakpoint($phone){
+            display: inline-block;
+        }
         text-decoration: none;
         background-color: $base1;
         color: $base5;
