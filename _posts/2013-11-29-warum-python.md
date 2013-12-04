@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Warum Python?
+permalink: /python/warum-python
 ---
 Warum möchte Ich überhaupt Python lernen? Eine Frage, die ich mir auch gestellt habe. In diesem Post möchte ich euch Vorteile und Nachteile von Python zeigen. Weiterführende Informationen findet ihr auf der offiziellen [Webseite von Python](www.python.org).
 
