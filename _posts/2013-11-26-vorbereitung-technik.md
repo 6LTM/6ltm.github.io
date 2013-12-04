@@ -2,6 +2,7 @@
 layout: post
 title: Technische Vorbereitung für das Projekt
 permalink: /vorbereitung/technik
+categories: vorbereitung
 ---
 
 Nachdem ich das Thema der persönlichen Vorbereitung abgehandelt habe, möchte Ich nun noch auf den Teil der technischen Vorbereitung für das Projekt eingehen. Eins möchte Ich allerdings noch vorweg nehmen. Diese Konfiguration entstammt in den Grundzügen meiner eigenen Fantasie, bis auf wenige Ausnahmen. Wenn jemand für evtl. Fehler oder sonstige Dinge im Zusammenhang mit der technischen Ausführung des Projektes verantwortlich, dann bin allein Ich das.

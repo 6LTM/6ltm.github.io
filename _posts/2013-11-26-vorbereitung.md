@@ -2,6 +2,7 @@
 layout: post
 title: Persönliche Vorbereitung für das Projekt
 permalink: /vorbereitung/perso
+categories: vorbereitung
 ---
 Um ein Projekt von dieser Größe und vorallem diesen Regeln stämmen zu können, bedarf es einiger perönlicher Vorbereitung.
 Den technischen Aspekt, wie z.B. die Einrichtung von Emacs werde Ich in einem späteren Post vorstellen.
