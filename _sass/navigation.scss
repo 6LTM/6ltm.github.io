@@ -25,6 +25,7 @@
 	    @include breakpoint($tablet){
 		display: inline-block;
 		text-align: center;
+                margin-left: -3px;
 	    }
 
 	    a{

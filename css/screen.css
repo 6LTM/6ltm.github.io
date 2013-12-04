@@ -256,9 +256,10 @@ h6 {
   #navigation ul li {
     display: inline-block;
     text-align: center;
+    margin-left: -3px;
   }
 }
-/* line 30, ../_sass/navigation.scss */
+/* line 31, ../_sass/navigation.scss */
 #navigation ul li a {
   display: block;
   text-decoration: none;
@@ -267,17 +268,17 @@ h6 {
   padding: 15px 0 15px 30px;
 }
 @media (min-width: 768px) {
-  /* line 30, ../_sass/navigation.scss */
+  /* line 31, ../_sass/navigation.scss */
   #navigation ul li a {
     padding: 20px;
   }
 }
-/* line 40, ../_sass/navigation.scss */
+/* line 41, ../_sass/navigation.scss */
 #navigation ul li a:hover, #navigation ul li a.active {
   background-color: #34495e;
 }
 
-/* line 47, ../_sass/navigation.scss */
+/* line 48, ../_sass/navigation.scss */
 #nav-toggle {
   display: block;
   float: right;
@@ -289,7 +290,7 @@ h6 {
   margin-top: 10px;
 }
 @media (min-width: 768px) {
-  /* line 47, ../_sass/navigation.scss */
+  /* line 48, ../_sass/navigation.scss */
   #nav-toggle {
     display: none;
   }
