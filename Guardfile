@@ -1,6 +1,6 @@
 # A sample Guardfile
 # More info at https://github.com/guard/guard#readme
-guard 'livereload' do
+guard 'livereload', delay: 0.5 do
   watch(%r{_site/.+\.(css|js|html)})
 end
 
@@ -18,6 +18,6 @@ end
 # Like usual, the Compass configuration path are relative to the :project_path
 
 # guard 'compass', project_path: 'not_current_dir', configuration_file: 'path/to/my/compass_config.rb'
-guard :compass, configuration_file: 'config.rb', compile_on_start: true do	
+guard :compass, configuration_file: 'config.rb', compile_on_start: true do
   watch(%r{_sass/.+\.(sass)})
 end
