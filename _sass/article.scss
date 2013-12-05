@@ -12,6 +12,10 @@ article{
         margin: $base-line-height/2 0;
     }
 
+    p{
+        margin-bottom: 10px;
+    }
+
     p i.fa{
         margin-right: 5px;
     }
@@ -30,7 +34,8 @@ article{
         padding: $base-line-height/2 $base-line-height;
     }
 
-    ul{
+    ul, ol{
+        margin-bottom: 10px;
         li{
             margin-left: 25px;
         }
@@ -41,5 +46,26 @@ article{
             font-weight: bold;
             content: "\f105 \0020";
         }
+    }
+
+    blockquote {
+        background: #f9f9f9;
+        border-left: 10px solid #ccc;
+        margin: 1.5em 10px;
+        padding: 0.5em 10px;
+        quotes: "\201C""\201D""\2018""\2019";
+        ul, ol{
+            li:before{
+                color: #ccc;
+            }
+        }
+    }
+    blockquote:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
     }
 }
