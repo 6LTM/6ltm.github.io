@@ -32,10 +32,8 @@ Genug gequatscht, ich zeige euch, wie Python aussieht
 <script src="https://gist.github.com/6LTM/7706391.js"></script>
 
 Hat man das in einer Datei mit der Endung .py gespeichert, reicht ein Aufruf von Python und das folgende erscheint:
-"""sh
-$ python hello.py
-Hello World
-"""
+
+<script src="https://gist.github.com/6LTM/7815347.js"></script>
 
 Ziemlich langweilig...Machen wir es einfach ein bisschen größer...
 
