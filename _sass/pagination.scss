@@ -3,7 +3,7 @@
 
 .pagination{
     overflow: hidden;
-    padding: 0 16px;
+    padding: 25px 16px;
 
     #page-links{
         text-align: center;
@@ -11,7 +11,7 @@
     }
 
     span.next, a.next, span.prev, a.prev{
-        padding: 10px 25px;
+        padding: 13px 26px;
         background-color: $base2;
     }
 

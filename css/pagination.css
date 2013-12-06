@@ -53,7 +53,7 @@ h6 {
 /* line 4, ../_sass/pagination.scss */
 .pagination {
   overflow: hidden;
-  padding: 0 16px;
+  padding: 25px 16px;
 }
 /* line 8, ../_sass/pagination.scss */
 .pagination #page-links {
@@ -66,7 +66,7 @@ h6 {
 }
 /* line 13, ../_sass/pagination.scss */
 .pagination span.next, .pagination a.next, .pagination span.prev, .pagination a.prev {
-  padding: 10px 25px;
+  padding: 13px 26px;
   background-color: #2c3e50;
 }
 /* line 18, ../_sass/pagination.scss */
