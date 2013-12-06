@@ -4,10 +4,13 @@
 @import "singularitygs";
 
 #sidebar{
+    display: none;
+
     text-align: center;
     background-color: $base1;
 
     @include breakpoint($desktop){
+        display: block;
         @include grid-span(3,10,12);
     }
     #social-links{
