@@ -1,0 +1,15 @@
+@import "compass/utilities/lists/inline-list";
+@import "singularitygs";
+@import "base";
+
+footer{
+    @include grid-span(12,1);
+
+    ul{
+        margin: 50px auto;
+        text-align: center;
+        li{
+            display: inline;
+        }
+    }
+}
