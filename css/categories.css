@@ -1,0 +1,65 @@
+/* line 61, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%;
+}
+
+/* line 64, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 16px;
+  line-height: 1.625em;
+}
+
+/* line 27, ../_sass/base.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #34495e;
+}
+
+/* line 31, ../_sass/base.scss */
+h1 {
+  font-size: 2.625em;
+  line-height: 1.2381em;
+}
+
+/* line 34, ../_sass/base.scss */
+h2 {
+  font-size: 2.3125em;
+  line-height: 1.40541em;
+}
+
+/* line 37, ../_sass/base.scss */
+h3 {
+  font-size: 1.8125em;
+  line-height: 1.7931em;
+}
+
+/* line 40, ../_sass/base.scss */
+h4 {
+  font-size: 1.375em;
+  line-height: 1.18182em;
+}
+
+/* line 43, ../_sass/base.scss */
+h5 {
+  font-size: 1em;
+  line-height: 1.625em;
+}
+
+/* line 46, ../_sass/base.scss */
+h6 {
+  font-size: 0.8125em;
+  line-height: 2em;
+}
+
+/* line 7, ../_sass/categories.scss */
+#category-archive h1#category-header {
+  display: none;
+}
+@media (min-width: 992px) {
+  /* line 7, ../_sass/categories.scss */
+  #category-archive h1#category-header {
+    display: block;
+    font-size: 2.625em;
+    line-height: 1.2381em;
+    padding: 16px;
+  }
+}

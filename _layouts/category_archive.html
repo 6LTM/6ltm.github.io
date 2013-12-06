@@ -1,13 +1,19 @@
 ---
 layout: default
 ---
-<div class="category-archive">
-  <div>
-    <span class="title">Category archive for {{ page.category }}</span>
-  </div>
-  <div>
-    <ul>
-{{ content }}
-    </ul>
-  </div>
+<div id="category-archive">
+  <h1 id="category-header">Artikel aus der Kategorie {{ page.category | capitalize }}</h1>
+
+  {% for post in page.posts %}
+  <article>
+    <h1>{{ post.title }}</h1>
+    <p><i class="fa fa-clock-o"></i>Erstellt am {{ post.date | date: "%d.%m. %Y" }}</p>
+
+    <p>
+      {{ post.excerpt }}
+    </p>
+    <a class="read-more" href="{{ post.url }}">Mehr Lesen <span class="glyphicon glyphicon-chevron-right"></span></a>
+  </article>
+  {% endfor %}
+
 </div>

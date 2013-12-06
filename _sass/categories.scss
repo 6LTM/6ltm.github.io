@@ -1,0 +1,16 @@
+@import "compass/typography";
+@import "breakpoint";
+
+@import "base";
+
+#category-archive{
+    h1#category-header{
+        display: none;
+
+        @include breakpoint($desktop){
+            display: block;
+            @include adjust-font-size-to(42px);
+            padding: 16px;
+        }
+    }
+}
