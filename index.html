@@ -7,7 +7,7 @@ title: 6LTM--Home
 {% for post in paginator.posts %}
 <article>
   <h1>{{ post.title }}</h1>
-  <p><i class="fa fa-clock-o"></i>Erstellt am {{ page.date | date: "%d.%m. %Y" }}</p>
+  <p><i class="fa fa-clock-o"></i>Erstellt am {{ post.date | date: "%d.%m. %Y" }}</p>
 
   <p>
     {{ post.excerpt }}
