@@ -1,25 +1,95 @@
+/* line 61, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%;
+}
+
+/* line 64, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 16px;
+  line-height: 1.625em;
+}
+
+/* line 27, ../_sass/base.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #34495e;
+}
+
+/* line 31, ../_sass/base.scss */
+h1 {
+  font-size: 2.625em;
+  line-height: 1.2381em;
+}
+
+/* line 34, ../_sass/base.scss */
+h2 {
+  font-size: 2.3125em;
+  line-height: 1.40541em;
+}
+
+/* line 37, ../_sass/base.scss */
+h3 {
+  font-size: 1.8125em;
+  line-height: 1.7931em;
+}
+
+/* line 40, ../_sass/base.scss */
+h4 {
+  font-size: 1.375em;
+  line-height: 1.18182em;
+}
+
+/* line 43, ../_sass/base.scss */
+h5 {
+  font-size: 1em;
+  line-height: 1.625em;
+}
+
+/* line 46, ../_sass/base.scss */
+h6 {
+  font-size: 0.8125em;
+  line-height: 2em;
+}
+
 /* line 4, ../_sass/pagination.scss */
-.pagination #page-links {
-  text-align: center;
-  width: 66.10169%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 16.94915%;
-  clear: none;
+.pagination {
+  overflow: hidden;
+  padding: 0 16px;
 }
 /* line 8, ../_sass/pagination.scss */
+.pagination #page-links {
+  text-align: center;
+  width: 65.95745%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 17.02128%;
+  clear: none;
+}
+/* line 13, ../_sass/pagination.scss */
+.pagination span.next, .pagination a.next, .pagination span.prev, .pagination a.prev {
+  padding: 10px 25px;
+  background-color: #2c3e50;
+}
+/* line 18, ../_sass/pagination.scss */
+.pagination span.prev, .pagination span.next {
+  color: #95a5a6;
+}
+/* line 22, ../_sass/pagination.scss */
+.pagination a.next, .pagination a.prev {
+  color: #ecf0f1;
+}
+/* line 26, ../_sass/pagination.scss */
 .pagination span.next, .pagination a.next {
   text-align: center;
-  width: 15.25424%;
+  width: 14.89362%;
   float: right;
   margin-left: 0;
   margin-right: 0;
   clear: none;
 }
-/* line 13, ../_sass/pagination.scss */
+/* line 31, ../_sass/pagination.scss */
 .pagination span.prev, .pagination a.prev {
   text-align: center;
-  width: 15.25424%;
+  width: 14.89362%;
   float: left;
   margin-right: -100%;
   margin-left: 0%;

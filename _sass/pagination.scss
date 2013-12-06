@@ -1,10 +1,28 @@
 @import "singularitygs";
+@import "base";
 
 .pagination{
+    overflow: hidden;
+    padding: 0 16px;
+
     #page-links{
         text-align: center;
         @include grid-span(8, 3);
     }
+
+    span.next, a.next, span.prev, a.prev{
+        padding: 10px 25px;
+        background-color: $base2;
+    }
+
+    span.prev, span.next{
+        color: $base3;
+    }
+
+    a.next, a.prev{
+        color: $base5;
+    }
+
     span.next, a.next{
         text-align: center;
         @include grid-span(2, 11);
