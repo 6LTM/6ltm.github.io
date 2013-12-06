@@ -67,3 +67,7 @@ footer ul {
 footer ul li {
   display: inline;
 }
+/* line 13, ../_sass/footer.scss */
+footer ul li a {
+  margin: 0 15px;
+}
