@@ -50,58 +50,62 @@ h6 {
   line-height: 2em;
 }
 
-/* line 6, ../_sass/article.scss */
+/* line 8, ../_sass/article.scss */
 article {
   padding: 16px;
   margin-bottom: 26px;
 }
-/* line 10, ../_sass/article.scss */
+/* line 12, ../_sass/article.scss */
 article h1 {
   color: #34495e;
   margin: 13px 0;
 }
-/* line 15, ../_sass/article.scss */
+/* line 17, ../_sass/article.scss */
 article p {
   margin-bottom: 10px;
 }
-/* line 19, ../_sass/article.scss */
+/* line 21, ../_sass/article.scss */
 article p i.fa {
   margin-right: 5px;
 }
-/* line 23, ../_sass/article.scss */
+/* line 25, ../_sass/article.scss */
 article a.read-more {
   font-size: 1.125em;
   line-height: 1.44444em;
   display: block;
   text-align: center;
   text-decoration: none;
-  background-color: #34495e;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #34495e), color-stop(100%, #222f3d));
+  background-image: -webkit-linear-gradient(#34495e, #222f3d);
+  background-image: -moz-linear-gradient(#34495e, #222f3d);
+  background-image: -o-linear-gradient(#34495e, #222f3d);
+  background-image: linear-gradient(#34495e, #222f3d);
   color: #ecf0f1;
   margin-top: 22px;
   padding: 13px 26px;
 }
 @media (min-width: 480px) {
-  /* line 23, ../_sass/article.scss */
+  /* line 25, ../_sass/article.scss */
   article a.read-more {
     display: inline-block;
   }
 }
-/* line 37, ../_sass/article.scss */
+/* line 39, ../_sass/article.scss */
 article ul, article ol {
   margin-bottom: 10px;
 }
-/* line 39, ../_sass/article.scss */
+/* line 41, ../_sass/article.scss */
 article ul li, article ol li {
   margin-left: 25px;
 }
-/* line 43, ../_sass/article.scss */
+/* line 45, ../_sass/article.scss */
 article ul li:before, article ol li:before {
   font-family: "FontAwesome";
   color: #34495e;
   font-weight: bold;
   content: "\f105 \0020";
 }
-/* line 51, ../_sass/article.scss */
+/* line 53, ../_sass/article.scss */
 article blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -109,11 +113,11 @@ article blockquote {
   padding: 0.5em 10px;
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
-/* line 58, ../_sass/article.scss */
+/* line 60, ../_sass/article.scss */
 article blockquote ul li:before, article blockquote ol li:before {
   color: #ccc;
 }
-/* line 63, ../_sass/article.scss */
+/* line 65, ../_sass/article.scss */
 article blockquote:before {
   color: #ccc;
   content: open-quote;

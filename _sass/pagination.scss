@@ -1,4 +1,5 @@
 @import "singularitygs";
+@import "compass/css3/images";
 @import "base";
 
 .pagination{
@@ -12,7 +13,7 @@
 
     span.next, a.next, span.prev, a.prev{
         padding: 13px 26px;
-        background-color: $base2;
+        @include background(linear-gradient($base1, darken($base1, 10%)));
     }
 
     span.prev, span.next{

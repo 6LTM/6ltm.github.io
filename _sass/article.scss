@@ -1,4 +1,6 @@
 @import "compass/typography";
+@import "compass/css3/images";
+@import "compass/utilities/color/contrast";
 @import "breakpoint";
 
 @import "base";
@@ -28,7 +30,7 @@ article{
             display: inline-block;
         }
         text-decoration: none;
-        background-color: $base1;
+        @include background-image(linear-gradient($base1, darken($base1, 10%)));
         color: $base5;
         margin-top: 22px;
         padding: $base-line-height/2 $base-line-height;
